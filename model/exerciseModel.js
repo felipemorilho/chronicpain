@@ -2,22 +2,18 @@ const { DataTypes } = require('sequelize');
 const db = require('../database/connection');
 const User = require('./userModel');
 
-const SpecificMovement = db.define('SpecificMovement', {
+const Exercise = db.define('Exercise', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    movement: {
+    exerciseName: {
         type: DataTypes.STRING(255),
         allowNull: false
     },
-    repetition: {
-        type: DataTypes.STRING(50),
-        allowNull: false
-    },
-    sets: {
-        type: DataTypes.STRING(50),
+    description: {
+        type: DataTypes.TEXT,
         allowNull: false
     },
     userId: {
@@ -30,4 +26,4 @@ const SpecificMovement = db.define('SpecificMovement', {
     }
 });
 
-module.exports = SpecificMovement;
+module.exports = Exercise;
