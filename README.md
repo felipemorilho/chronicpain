@@ -11,7 +11,8 @@
 | ------------- | -------------------------- |
 | JavaScript    | Desenvolvimento do Backend |  
 | Node.js       | Framework do Backend       |  
-| VSC           | IDE                        |  
+| VSC           | IDE                        | 
+| Postman       | Teste Endpoint API         | 
 | PostgreSQL    | Banco de Dados             |  
 | Git           | Versionamento do código    |  
 | GitHub        | Repositório Online         |  
