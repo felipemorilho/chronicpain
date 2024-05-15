@@ -8,16 +8,16 @@ const User = db.define('User', {
         autoIncrement: true
     },
     name: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(255),
         allowNull: false
     },
     cpf: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(14),
         allowNull: false,
         unique: true
     },
     email: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(255),
         allowNull: false,
         unique: true
     },
@@ -26,7 +26,7 @@ const User = db.define('User', {
         allowNull: false
     },
     password: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(30),
         allowNull: false
     }
 });
