@@ -21,3 +21,5 @@
 
 - Modelagem do Banco de Dados:
 
+- [Acessar DER](https://dbdiagram.io/d/BD-do-ChronicPain-6644ae7af84ecd1d223fa765)
+
